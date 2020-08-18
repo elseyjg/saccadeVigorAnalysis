@@ -9,8 +9,8 @@ redoFlag = 0;
 
 % Which machine are you using?
 computerName =  getComputerName;
-if strcmp(computerName,'jacobs-macbook-pro.local')| strcmp(computerName,'jacobs-mbp') == 1;
-    paths.basePath = '/Users/jacobelsey/OneDrive - Johns Hopkins/Data/madm_4Opt4Att';
+if strcmp(computerName,'stephens-mbp.home')| strcmp(computerName,'jacobs-mbp') == 1;
+    paths.basePath = '/Users/stephenchu/StuphornMATLAB/saccadeVigor';
     paths.dataPath = fullfile(paths.basePath,'data');
     paths.statsPath = fullfile(paths.basePath,'stats');
     paths.figurePath = fullfile(paths.basePath,'figures');
