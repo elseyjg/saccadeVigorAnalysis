@@ -9,7 +9,7 @@ redoFlag = 0;
 
 % Which machine are you using?
 computerName =  getComputerName;
-if strcmp(computerName,'stephens-mbp.home')| strcmp(computerName,'jacobs-mbp') == 1;
+if strcmp(computerName,'stephens-macbook-pro.local')| strcmp(computerName,'jacobs-mbp') == 1;
     paths.basePath = '/Users/stephenchu/StuphornMATLAB/saccadeVigor';
     paths.dataPath = fullfile(paths.basePath,'data');
     paths.statsPath = fullfile(paths.basePath,'stats');
