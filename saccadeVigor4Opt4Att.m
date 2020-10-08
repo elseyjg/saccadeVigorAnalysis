@@ -109,7 +109,7 @@ set(gcf,'units','pixels' ...
     ,'PaperType','usletter' ...
     ,'paperposition',[.25   .25   10.5  8])
 
-    print(fullfile(figurePath, figureFolder,['Subject ', subjID, ' Saccade Vigor Main Sequence ', taskType,'.pdf']),'-dpdf','-r300')
+    print(fullfile(figurePath, figureFolder,['Subject ', subjID, ' Sacc Vigor MS ', taskType,'.pdf']),'-dpdf','-r300')
 
 close all
 
