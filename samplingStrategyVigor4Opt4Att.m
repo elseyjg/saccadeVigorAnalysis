@@ -696,7 +696,7 @@ peakVelNonDomMoveMeanByFix = movmean(peakVelNonDomMeanByFix, 4);
 
 %% Moving mean of peak velocity over time
 subplot(2,1,2)
-b = boxplot(peakVelNonDom, 'plotstyle', 'compact');
+p = plot(peakVelNonDom);
 colorbar
 ylabel('Mean Peak Velocity');
 % set(gca,'XTickLabel',[]);
