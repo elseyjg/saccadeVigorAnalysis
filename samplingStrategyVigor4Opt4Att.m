@@ -702,7 +702,7 @@ ylabel('Mean Peak Velocity');
 % set(gca,'XTickLabel',[]);
 xlabel('Saccade # In Trial');
 xlim([0.4 xLimWidth])
-ylim = (clims);
+ylim([0 500]);
 box off
 
 
